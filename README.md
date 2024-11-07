@@ -1,16 +1,14 @@
-# portfolio_app
+Welcome to my Flutter portfolio app! This app showcases my skills, projects, and experience in mobile app development, giving you a glimpse into my work and expertise.
 
-A new Flutter project.
+Features:
+ - Home Page: Overview of my profile, including a brief bio and links to my professional accounts.
+ - Skills: Visual representation of my technical skills, including proficiency in languages, frameworks, and tools.
+ - Projects: A list of my top projects with details, technologies used, and GitHub links for code samples.
+ - Contact: Contact form and direct links to connect on LinkedIn, GitHub, or via email.
 
-## Getting Started
+Tech Stack:
+Flutter: The entire application is built in Flutter for a smooth, cross-platform experience.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Click this Link to check my portfolio:
+https://faisalzafar-dev.netlify.app
