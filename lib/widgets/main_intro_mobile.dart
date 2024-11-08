@@ -13,7 +13,7 @@ class MainIntroMobile extends StatelessWidget {
     final screenHeight = screenSize.height;
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 40, vertical: 30),
-      height: screenHeight,
+      height: screenHeight * 1.3,
       constraints: const BoxConstraints(minHeight: 560),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
