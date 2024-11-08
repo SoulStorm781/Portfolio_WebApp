@@ -15,7 +15,7 @@ class ContactSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.fromLTRB(25, 20, 25, 60),
-      color: FColors.bgLight1,
+      color: FColors.scaffoldBg,
       child: Column(children: [
         //title
         const Text(

@@ -56,7 +56,7 @@ class ProjectCardWidget extends StatelessWidget {
           //footer
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
-            color: FColors.bgLight1,
+            color: FColors.scaffoldBg,
             child: Row(
               children: [
                 const Text(

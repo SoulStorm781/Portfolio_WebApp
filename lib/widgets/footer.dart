@@ -11,7 +11,7 @@ class FooterWidget extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 20),
       width: double.maxFinite,
-      color: FColors.scaffoldBg,
+      color: FColors.bgLight1,
       child: const Text(
         'Made by Faisal Zafar © 2024',
         textAlign: TextAlign.center,

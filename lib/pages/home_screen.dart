@@ -3,6 +3,9 @@ import 'package:portfolio_app/utils/colors/colors.dart';
 import 'package:portfolio_app/utils/sizes/size.dart';
 import 'package:portfolio_app/widgets/contact_section.dart';
 import 'package:portfolio_app/widgets/drawer_mobile.dart';
+import 'package:portfolio_app/widgets/edu_and_exp.dart';
+import 'package:portfolio_app/widgets/exp_desktop.dart';
+import 'package:portfolio_app/widgets/exp_mobile.dart';
 import 'package:portfolio_app/widgets/footer.dart';
 import 'package:portfolio_app/widgets/header_mobile.dart';
 import 'package:portfolio_app/widgets/header_web.dart';
@@ -96,6 +99,36 @@ class _Home_ScreenState extends State<Home_Screen> {
                   ],
                 ),
               ),
+              const SizedBox(
+                height: 25,
+              ),
+
+              //===============Education and Experience============
+              Container(
+                padding: const EdgeInsets.fromLTRB(25, 20, 25, 60),
+                width: screenWidth,
+                color: FColors.scaffoldBg,
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    //title
+                    const Text(
+                      'Education and Experience',
+                      style: TextStyle(
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold,
+                        color: FColors.whitePrimary,
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 50,
+                    ),
+                    //education
+                    EducationExperience()
+                  ],
+                ),
+              ),
+
               const SizedBox(
                 height: 25,
               ),

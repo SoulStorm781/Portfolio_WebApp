@@ -15,6 +15,7 @@ class ProjectSection extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.fromLTRB(25, 20, 25, 60),
       width: screenWidth,
+      color: FColors.bgLight1,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
